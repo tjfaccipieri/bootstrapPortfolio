@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --clr-text-base: #2B2727;
+  --clr-base: #151313;
+  --clr-pink: #FF7AAC;
+  --clr-pink-hover: #FF1F75;
+  --clr-blue: #D3FBD8;
+  --clr-blue-hover: #8FF59D;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+.bg-base {
+  background-color: var(--clr-base);
+}
+
+.bg-pink {
+  background-color: var(--clr-pink);
+}
+
+.bg-blue {
+  background-color: var(--clr-blue);
+}
+
+.text-base {
+  color: var(--clr-base)
+}
+
+.text-pink {
+  color: var(--clr-pink)
+}
+
+.text-blue {
+  color: var(--clr-blue);
+}
+
+.text-accent {
+  color: var(--clr-text-base)
+}
+
+.skills {
+  min-height: 25vh;
+  background-color: transparent;
+  border: 3px solid var(--clr-blue-hover);
+  color: var(--clr-blue);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+  transition: .5s;
+}
+
+.skills:hover {
+  background-color: var(--clr-blue-hover);
+  color: var(--clr-text-base)
+}
+
+.skills p {
+  width: 42%;
+  margin-left: 5%;
+  text-transform: uppercase;
+  font-weight: 600;
+  user-select: none;
+
+}
+
+.skills p::before {
+  content: '🚀 - '
+}
+/* pseudo-classe */
+
+
