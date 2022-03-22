@@ -7,6 +7,7 @@
   --clr-pink-hover: #FF1F75;
   --clr-blue: #D3FBD8;
   --clr-blue-hover: #8FF59D;
+  --light-color: #e0e0e0;
 }
 
 * {
@@ -16,6 +17,10 @@
 html {
   scroll-behavior: smooth;
   user-select: none;
+}
+
+.bg-lightcolor {
+  background-color: var(--light-color)
 }
 
 .bg-base {
